@@ -1,0 +1,33 @@
+body{
+  margin: 1ch;
+}
+
+.navbar{
+  background-color: #234874;
+  height: 90px;
+  border-top-left-radius: 2ch;
+  border-top-right-radius: 2ch;
+  text-align: center;
+  
+
+}
+
+.navbar-text{
+  color: white;
+  font-family: "Poppins";
+  padding-top: 1.75ch;
+}
+
+.image{
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./Poppins/Poppins-Medium.ttf);
+}
