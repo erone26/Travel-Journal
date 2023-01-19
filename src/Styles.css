@@ -1,31 +1,104 @@
 body{
-  margin: 1ch;
+  margin: 0;
+  font-family: "Poppins";
 }
+
+
+
 
 .navbar{
   background-color: #234874;
   height: 90px;
-  border-top-left-radius: 2ch;
-  border-top-right-radius: 2ch;
-  text-align: center;
-  
+  border-radius: 15px 15px 0px 0px;
+  margin: 1ch;
+  margin-bottom: 6ch;
+}
+
+.navbar-div{
+  display:flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+
+.earth-icon{
+  height: 30px;
+  width: 30px;
+  color: white;
+  padding-top: 20px;
 
 }
 
 .navbar-text{
   color: white;
-  font-family: "Poppins";
-  padding-top: 1.75ch;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 8px;
+  padding-top: 0;
+}
+
+.image-div{
+  margin: 1ch 0ch 0ch 4ch;
 }
 
 .image{
-  height: 100px;
-  width: 100px;
+  height: 211.5px;
+  width: 316.5px;
+  border-radius: 20px;
+}
+
+.card-component{
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.info-div{
+
+}
+
+.first-info-row{
+  height: 3ch;
+  padding-left: 2ch;
+  display: flex;
+  gap: 10px;
+}
+
+.map-pin{
+  height: 30px;
+  width: 30px;
+  padding-top: 17px;
+  color: #234874;
+  font-weight: bolder;
+  
+}
+
+.country{
+}
+
+.googlemaps-link{
+  padding-top: 17px;
+  color: grey;
+  text-decoration-line: underline;
+}
+
+.second-info-row{
+  padding-left: 3ch;
+  height: 6.5ch;
+  display: flex;
+  gap: 15px;
+}
+
+.date{
+  padding-top: 20px;
+  font-size: large;
 }
 
 
-
-
+.paragraph-row{
+  padding-left: 2ch;
+  max-width: 300px
+}
 
 @font-face {
   font-family: "Poppins";
